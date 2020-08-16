@@ -7,19 +7,19 @@
 3. Open File - Project Structure and select 'Dependencies'. 
    Add 'unityLibrary' as Module Dependency to 'app'.
 
-4. Add below to build.gradle(Project: ~) - allproject - repositories
+4. Add code below to build.gradle(Project: ~) - allproject - repositories
   ```
   flatDir {
     dirs "${project(':unityLibrary').projectDir}/libs"
   }
   ```
   
-5. if android.content.res.Resources$NotFoundException: String resource ID #0x0 occurs, Add below to app - res - values - strings.xml
+5. if android.content.res.Resources$NotFoundException: String resource ID #0x0 occurs, Add code below to app - res - values - strings.xml
   ```
   <string name="game_view_content_description">Game view</string>
   ```
 
-6. if NDK error occurs, Add below to bulld.gradle(app) - android - defaultConfig 
+6. if NDK error occurs, Add code below to bulld.gradle(app) - android - defaultConfig 
   ```
   ndk {
     abiFilters 'armeabi-v7a'
