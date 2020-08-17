@@ -14,7 +14,7 @@
   }
   ```
 
-5. Remove <intent-filter>...</intent-filter> from AndroidManifest.xml in unityLibrary  
+5. Open AndroidManifest.xml in unityLibrary and comment out the intent code
 
 6. if android.content.res.Resources$NotFoundException: String resource ID #0x0 occurs, Add code below to app - res - values - strings.xml
   ```
