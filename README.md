@@ -1,5 +1,5 @@
-### Android-Unity-Intergration
-- - - - - - - - - - - - - - - 
+# Android Unity Intergration
+
 1. Build and Run your Unity project.
 
 2. Open File - New - import Module... and add unityLibrary folder.
